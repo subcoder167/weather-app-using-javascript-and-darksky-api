@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="refresh" content="60; url=index.html">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="heading">Welcome, Subhajit!</div>
+    <table>
+        <td>
+    <div class="location">
+        <h1 class="location-timezone">Timezone</h1>
+    </div>
+    <div class="temperature">
+        <div class="degree-section">
+        <h2 class="temperature-degree">Degree</h2>
+        <span>F</span>
+        </div>
+        <div class="temperature-description">It's Hot!</div>
+    </div>
+    </td>
+    <td>
+    <iframe src="https://calendar.google.com/calendar/embed?&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FKolkata&amp;src=c3ViaGFqaXRtYWppMTY3QGdtYWlsLmNvbQ&amp;src=Y2xhc3Nyb29tMTE1MDM1ODQzMzc1NTk1NTEyNjczQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4uaW5kaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%23c26401&amp;color=%237986CB&amp;color=%237986CB" style="border-width:0" width="500" height="350" frameborder="0" scrolling="yes"></iframe>
+    </td>
+    <td>
+    <h2>The time is:</h2>
+    <div id="MyClockDisplay" class="clock"></div>
+    </td>
+    <script src="action.js"></script>    
+    <script src="clock.js"></script>
+    </table>
+</body>
+</html>
